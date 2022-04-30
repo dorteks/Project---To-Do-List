@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do app | Home</title>
+
+    <style>
+      body {
+        background-color: whitesmoke;
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 0 20px;
+        font-family: "Domine";
+      }
+      .homebody {
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        color: black;
+        padding: 0px;
+        margin-left: 0px;
+      }
+      a {
+        padding-left: 20px;
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+      }
+      h1 {
+        color: black;
+        text-align: center;
+        margin-bottom: -5px;
+      }
+      h2 {
+        font: italic;
+        font-size: 0.3cm;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-weight: 0.2cm;
+        text-align: center;
+      }
+      nav {
+        text-align: left;
+        padding-top: 5px;
+      }
+      nav a {
+        margin-right: 15px;
+      }
+      footer {
+        margin-top: 50px;
+        font: italic;
+        font-size: 0.3cm;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-weight: 0.2cm;
+        text-align: center;
+      }
+      .application1,
+      .application2 {
+        margin-left: -20px;
+        font-family: "Times New Roman", Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TO DO APP</h1>
+    <h2>If you fail to plan, you have planned to fail!</h2>
+
+    <!-- insert a display picture here -->
+
+    <nav>
+      <div class="menu">
+        <a href="/"> HOME</a>
+        <a href="/about-us"> ABOUT</a>
+        <a href="/contact-us"> CONTACT</a>
+      </div>
+
+      <div class="homebody">
+        <ul>
+          Hi there!
+        </ul>
+        <ul>
+          Welcome to a brand new day
+        </ul>
+        <ul>
+          What are your plans for today?
+        </ul>
+      </div>
+
+      <div class="application1">
+        <ul>
+          With this app, you can schedule activities and the time-frames you'll
+          be doing the activities.
+        </ul>
+      </div>
+
+      <div class="application2">
+        <ul>
+          APPLICATIONS
+          <br />
+          Work schedules
+          <br />
+          Order of program
+          <br />
+          Project plan
+        </ul>
+      </div>
+
+      <div class="intro">
+        <ul>
+          You want to achieve a set goal?, create a work plan now!
+        </ul>
+      </div>
+
+      <div class="nextpage">
+        <a href="/api/lists">Create a To-Do List</a> <br />
+        <!-- for post request -->
+        <a href="/api/lists">Check a To-Do List</a> <br />
+        <a href="/api/lists/:id">Check an item in a To-Do List</a> <br />
+        <a href="/api/lists">Update a To-Do List</a> <br />
+        <a href="/api/lists/:id">Delete a To-Do List</a> <br />
+      </div>
+
+      <!-- insert some advert pages here -->
+    </nav>
+
+    <footer>
+      &copy, To-Do app, 2022. All Rights Reserved <br />
+      Always at your service
+    </footer>
+  </body>
+</html>
